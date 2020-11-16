@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#008577</color>
-    <color name="colorPrimaryDark">#00574B</color>
-    <color name="colorAccent">#D81B60</color>
-    <color name="swarmColor">#E6522D</color>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="t">#B1BF4D</color>
+    <color name="y">#7BC7A9</color>
+    <color name="u">#4F98B9</color>
+    <color name="i">#9BACBE</color>
+
+
+    <color name="q">#F6D305</color>
+    <color name="w">#E7B90E</color>
+    <color name="e">#2663A2</color>
+    <color name="r">#398AB9</color>
+
+
+    <color name="a">#E9EDB0</color>
+    <color name="b">#BBCE51</color>
+    <color name="c">#02ABB2</color>
+    <color name="d">#7FD4D1</color>
 </resources>
