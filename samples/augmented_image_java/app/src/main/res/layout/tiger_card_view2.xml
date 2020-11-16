@@ -1,0 +1,13 @@
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="400px"
+    android:layout_height="400px"
+    android:layout_weight="1"
+    android:id="@+id/test_test"
+    android:background="@drawable/rounded_bg"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:textStyle="bold"
+    android:text="test02"
+    android:textColor="#000000"
+    android:textAlignment="center"
+    android:textSize="24sp" />

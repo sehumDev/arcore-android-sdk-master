@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.google.ar.core.examples.java.kotlingif.GifActivity">
+
+
+    <fragment android:name="com.google.ar.core.examples.java.kotlingif.AugmentedImageFragment"
+        android:id="@+id/arFrag"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    
+    <ImageView
+        android:id="@+id/fitToScan"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:scaleType="fitCenter"
+        android:src="@drawable/fit_to_scan1" />
+
+    <Button
+        android:id="@+id/btn_go_java"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_margin="15dp"
+        android:background="@drawable/btn_white"
+        android:text="정답을 적어주세요"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+</FrameLayout>
