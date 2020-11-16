@@ -8,8 +8,7 @@
 
     <uses-feature
         android:name="android.hardware.camera"
-        android:required="true"
-        />
+        android:required="true" />
     <!--
  Limits app visibility in the Google Play Store to ARCore supported devices
        (https://developers.google.com/ar/discover/supported-devices).
@@ -25,19 +24,20 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="false"
         tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name="com.google.ar.core.examples.java.HomeActivity">
 
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name="com.google.ar.core.examples.java.kotlingif.GifActivity"
             android:theme="@style/Theme.AppCompat" />
         <activity
             android:name="com.google.ar.core.examples.java.StartActivity"
             android:theme="@style/Theme.AppCompat">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name="com.google.ar.core.examples.java.Answer"
@@ -48,22 +48,18 @@
             android:exported="true"
             android:screenOrientation="locked"
             android:theme="@style/Theme.AppCompat.NoActionBar" /> <!-- Indicates whether "Google Play Services for AR" (ARCore) is "required" or "optional". -->
-
         <activity
             android:name="com.google.ar.core.examples.java.ChromaKeyVideoActivity"
             android:configChanges="orientation|screenSize"
             android:exported="true"
             android:label="@string/app_name"
             android:screenOrientation="locked"
-            android:theme="@style/Theme.AppCompat.NoActionBar">
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
 
-
-
-        </activity>
-
-        <provider android:authorities="com.facebook.app.FacebookContentProvider{2668747140105728}"
+        <provider
             android:name="com.facebook.FacebookContentProvider"
-            android:exported="true"/>
+            android:authorities="com.facebook.app.FacebookContentProvider{2668747140105728}"
+            android:exported="true" />
 
         <meta-data
             android:name="com.google.ar.core"
