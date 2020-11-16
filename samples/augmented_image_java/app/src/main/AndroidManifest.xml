@@ -24,20 +24,18 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="false"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name="com.google.ar.core.examples.java.HomeActivity">
-
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+        <activity android:name="com.google.ar.core.examples.java.HomeActivity"></activity>
         <activity
             android:name="com.google.ar.core.examples.java.kotlingif.GifActivity"
             android:theme="@style/Theme.AppCompat" />
         <activity
             android:name="com.google.ar.core.examples.java.StartActivity"
             android:theme="@style/Theme.AppCompat">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
         <activity
             android:name="com.google.ar.core.examples.java.Answer"
